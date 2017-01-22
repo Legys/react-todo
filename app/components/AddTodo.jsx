@@ -14,7 +14,7 @@ var AddTodo = React.createClass({
     },
     render() {
         return (
-            <div>
+            <div className="container__footer">
                 <form onSubmit={this.onSubmit}>
                     <input
 
